@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lara91k</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="recursos/jquery.min.js"></script>
+    <script src="recursos/cycle/jquery_cycle.js"></script>
+    <script src="recursos/prefix/prefixfree.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <script>
+        $('#galeriaFotos').cycle({
+            fx:'slideX',
+            speed:1000,
+            timeout:1000,
+            prev:'#ant',
+            next:'#sig',
+            pause:true
+        })
+    </script>
+</head>
+
+<body>
+    <div class="principal">
+    <header id="encabezado">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="archivos/album.html">Álbum</a></li>
+                <li><a href="archivos/formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="iniciopag">
+        <div id="inicio">
+            <h1>LARA91K</h1>
+            
+            <div id="primerfoto">
+            <picture>
+                <source srcset="imagenes/mobile-laraprincipal.png" media="(max-width: 480px)">
+                <source srcset="imagenes/tablet-lara91k-01.png" media="(max-width: 800px)">
+                <img src="imagenes/lara91k.png" alt="lara con pelo rojo y remera" class="border"/>
+            </picture>
+            </div>
+
+            <div id="textointro">
+            <p><strong>Lara Artesi, conocida como Lara91k</strong>, es una <em>cantante y compositora argentina</em>. Formó parte del <abbr title="Coral Casino">CS</abbr> y fue colaboradora del sello discográfico <strong>I NEED SPONSORS</strong> siendo con estos pioneros del género urbano en Buenos Aires allá por el 2015</p> 
+            <p><strong>Como antes, su primer disco de estudio como solista fue publicado en 2022.</strong></p>
+             </div>
+
+            <div id="galeriacentrada">
+            <div id="contenedorGaleria">
+                <div class="izquierda">
+                <a href="#" id="ant">Prev</a>
+                </div>
+                <div id="galeriaFotos">
+                        <img src="imagenes/fotosGaleria-02.jpg" alt="laraFumando"/>
+                        <img src="imagenes/fotosGaleria-03.jpg" alt="laraFondoVentana"/>
+                        <img src="imagenes/fotosGaleria-04.jpg" alt="laraFondoBlanco"/>
+                        <img src="imagenes/fotosGaleria-05.jpg" alt="larafondoBlanco2"/>
+                </div>
+                <div class="derecha">
+                    <a href="#" id="sig">Siguiente</a>
+                    </div>
+                </div>
+        </div></div>
+        </section>
+
+        <section id="biografiaaa">
+        <h2 id="biografía">¿Como comenzó todo esto?</h2>
+            <div id="columnas">
+                    <p>Nacida en Buenos Aires pero con <em>adolescencia transcurrida en Pinamar</em>, la compositora, de 31 años, lleva más de una década en el mundo de la música como algo más que un pasatiempo. Tuvo una banda, hizo un disco de baladas que publicó en Bandcamp y en 2014 formó el dúo que se adelantó a la explosión de la movida urbana en nuestro país.</p>
+                    
+                    <p>Tras terminar el secundario, Lara se vino a <abbr title="Buenos Aires">Bs.as</abbr> a estudiar fotografía, pero enseguida se dio cuenta que lo suyo era la música. Junto a un novio baterista tuvo su grupo Slow B. Luego, con un amigo formaron Lara Clauss, y bajo este nombre publicaron un disco a través de un sello indie de La Plata, con un sonido bastante folkie.</p>
+                    
+                    <p>Sin embargo, haber conocido a Roque Ferrari, beatmaker y finalmente par suyo en Coral Casino, la impulsó a cambiar de rumbo, internándose en una <em>combinación de hip hop con cosas más indie</em> y que daba por resultado un sonido propio con el que impusieron su sello a lo largo de una gran cantidad de presentaciones que llegaron a su final tras un viaje a <abbr title="México">Mx</abbr>, con grabación incluida.</p>
+                    
+                    <p>Así fue como de a poco, Lara comenzó con su camino como solista. Y tras varios singles (<abbr title='documento nacional de identidad'>D.N.I</abbr>,Tell Her con Karne Palta y Dándote junto a Cazzu y Chita, entre otros), este año vio la luz Como antes. Veinte temas condensados en poco más de 45 minutos de duración, con cinco separadores que no llegan al minuto de duración.</p>
+
+                <h3>Género músical</h3>
+                <p>Lara91k <strong>mueve dentro del ámbito de la música urbana, un género que se caracteriza por la fusión de varios estilos musicales como el hip hop, el rap</strong> , el reguetón y elementos de electrónica. Dentro de este género, ella <em>ha explorado diferentes facetas y estilos que han evolucionado a lo largo de su carrera</em>, desde sus inicios en el dúo Coral Casino hasta su desarrollo como solista.</p>
+                <p>En términos de instrumentación, en el contexto de la producción musical moderna del género urbano, <strong>se utilizan principalmente instrumentos electrónicos y sintetizadores para crear beats y melodías</strong>. Además, es común el uso de samples y loops que se combinan para formar las bases rítmicas de las canciones.</p>
+             </div>
+
+             <div id="videocomoantes">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/wmOlEFSh-ZY?si=FmBEacesXLIHMXHj" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>      
+            
+            <div id="nota">
+            <blockquote>"De a poco empecé a tomar fuerzas y a abrirme, pero no con el afán de destruir, ya que Coral Casino puede volver en cualquier momento, y a Roque lo adoro. Fue dejar un proyecto que tenía su base y su movida, y empezar de cero”. <cite>Lara91k</cite></blockquote>
+            </div>
+            
+            <div id="laritafoto">
+                <picture>
+                <source srcset="imagenes/bidon-mobile-02.png" media="(max-width: 480px)">
+                <source srcset="imagenes/bidon-tablet-02-02.png" media="(max-width: 800px)">
+                <img src="imagenes/fotobidon.png" alt="Lara91k on bidon en la mano" />
+                </picture>
+            </div>
+        
+        </section>
+    </main>
+    <footer>
+        <div id="redes">
+        <ul>
+            <li id="instagram"><a href="https://www.instagram.com/lara91k/" target="_blank">Instagram</a></li>
+            <li id="twitter"><a href="https://x.com/lara91k?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></li>
+            <li id="youtube"><a href="https://www.youtube.com/channel/UC0rZh06eTqOFF7fwR2QhFkA" target="_blank">Youtube</a></li>
+         </ul>
+        </div>
+        <div id="copyright">
+        <p>© 2024 Melany Mansilla. Todos los derechos reservados.
+        Este sitio web fue diseñado por Melany Mansilla para la Maquetado web dirigida por Mabel Garcia, 2do cuatrimestre 2024.
+        </p></div>
+
+    </footer>
+
+</div>
+</body>
+</html>
+
