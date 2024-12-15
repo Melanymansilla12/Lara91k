@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+
+</head>
+<body>
+    <div class="principal">
+        <header id="encabezado">
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="album.html">Álbum</a></li>
+                    <li><a href=#formulario>Formulario</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main> 
+        <section id="entrada">
+        <h1>Ganate un meet and greet para ver a Lara91k</h1>
+        <p ><em>¿Como participo?</em></p>
+        <p>Completá este formulario y podrás ser uno de los tres ganadores para ver a Lara el 14 de noviembre en el teatro coliseo</p>
+        <form action="graciaslara.html" method="get" enctype="multipart/form-data">
+            
+            <div>
+                <span>Nombre</span>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre"/>
+            </div>
+
+            <div>
+                <span>Apellido</span>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido"/>
+            </div>
+            
+            <div>
+                <span>Fecha de nacimiento</span>
+                <input type="date" name="Fecha">
+
+            </div>
+
+            <div>
+                <span>Dirección</span>
+                <input type="text" name="direccion" placeholder="Ingrese su dirección"/>
+            </div>
+
+            <div>
+                <span>Mail</span>
+                <input type="text" name="mail" placeholder="pepe@gmail.com"/>
+            </div>
+
+            <div>
+                <span>Teléfono</span>
+                <input type="tel" name="telefono" placeholder="Telefono"/>
+            </div>
+            <div id="albumes">
+                <span>¿Que albúm te gusta más? (presiona ctrl para seleccionar más opciones)</span>
+                <select name="Albumes" multiple size="4">
+                    <option value="rm">Romance mixtape</option>
+                    <option value="ca">Como antes</option>
+                    <option value="rm2">Romance mixtape 2</option>
+                    <option value="100">100pre yoro</option>
+                </select>
+            </div>
+
+            <div >
+                <span>Ingrese una foto suya</span>
+                <input type="file" accept="image/jpg,image/png" name="foto">
+            </div>
+
+            <div>
+                <input type="submit" id="enviar" value="Enviar"/>
+                <input type="reset" id="Borrar" value="Borrar todo"/>
+            </div>
+        </form>
+
+        <div id="laritafoto">
+            <img src="../imagenes/larafondoblanco.png" alt="larafondoblanco"/>
+        </div>
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SUtSap0pqPY?si=I7d7dT9BgR-WbFaY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    </main>
+
+    <footer>
+        <div id="redes">
+        <ul>
+            <li id="instagram"><a href="https://www.instagram.com/lara91k/" target="_blank">Instagram</a></li>
+            <li id="twitter"><a href="https://x.com/lara91k?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></li>
+            <li id="youtube"><a href="https://www.youtube.com/channel/UC0rZh06eTqOFF7fwR2QhFkA" target="_blank">Youtube</a></li>
+         </ul>
+        </div>
+        <div id="copyright">
+        <p>© 2024 Melany Mansilla. Todos los derechos reservados.
+        Este sitio web fue diseñado por Melany Mansilla para la Maquetado web dirigida poe Mabel Garcia, 2do cuatrimestre 2024.
+        </p></div>
+
+    </footer>
+    </div>
+</body>
+</html>

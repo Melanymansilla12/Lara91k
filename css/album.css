@@ -1,0 +1,385 @@
+
+@font-face {
+    font-family: 'sg_noxvilleregular_demo';
+    src: url('../tipografia/sgNoxville/sg_noxville_demo_-_regular-webfont.eot');
+    src: url('../tipografia/sgNoxville/sg_noxville_demo_-_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../tipografia/sgNoxville/sg_noxville_demo_-_regular-webfont.woff2') format('woff2'),
+         url('../tipografia/sgNoxville/sg_noxville_demo_-_regular-webfont.woff') format('woff'),
+         url('../tipografia/sgNoxville/sg_noxville_demo_-_regular-webfont.ttf') format('truetype'),
+         url('../tipografia/sgNoxville/sg_noxville_demo_-_regular-webfont.svg#sg_noxvilleregular_demo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'shockwaveregular';
+    src: url('../tipografia/shockwave/shockwave-webfont.eot');
+    src: url('../tipografia/shockwave/shockwave-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../tipografia/shockwave/shockwave-webfont.woff2') format('woff2'),
+         url('../tipografia/shockwave/shockwave-webfont.woff') format('woff'),
+         url('../shockwave-webfont.ttf') format('truetype'),
+         url('../tipografia/shockwave/shockwave-webfont.svg#shockwaveregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../tipografia/poppins-regular-webfont.eot');
+    src: url('../tipografia/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tipografia/poppins-regular-webfont.woff2') format('woff2'),
+         url('../tipografia/poppins-regular-webfont.woff') format('woff'),
+         url('../poppins-regular-webfont.ttf') format('truetype'),
+         url('../tipografia/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../tipografia/poppins-semibold-webfont.eot');
+    src: url('../tipografia/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../tipografia/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../tipografia/poppins-semibold-webfont.woff') format('woff'),
+         url('../tipografia/poppins-semibold-webfont.ttf') format('truetype'),
+         url('../tipografia/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+main, nav, header, footer{display:block;}
+
+body{
+    cursor: url(../imagenes/click-03.png),auto;
+    background-image: url(../imagenes/fondo-04.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.principal{
+    width:1280px;
+	margin:auto;
+    font-family:'poppinsregular';
+    font-size: 15px;
+    line-height: 19px;
+    color:#ffffff;
+    padding: 0;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor:url("../imagenes/click-03.png"),auto;
+}
+
+
+em,strong{
+    font-family:'poppinssemibold';
+    font-size: 15px;
+    color:#31bce3;
+    font-style: normal;
+}
+    
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'shockwaveregular';
+    color: #f8ea43;
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+nav {
+    background-color: #31bce3;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    font-family: 'shockwaveregular';
+    font-size: 35px;
+    line-height: 38px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+        
+nav li {
+    display: inline-block; 
+    padding: 20px;
+    margin-right: 20px;
+}
+
+ul{
+    list-style: none;
+}
+            
+nav :visited{
+    color: #000000;
+}
+
+nav :hover{
+    color: #f8ea43;
+}
+            
+a {
+    text-decoration: none;
+}
+
+#copyright{
+    font-size: 10px;
+    text-align: center;
+}
+
+ol a:visited{
+    color:#31bce3
+}
+
+ol a:hover{
+    color: #000000;
+    font-family: 'poppinssemibold';
+} 
+
+#mixtape {
+    display: inline-block;
+}
+
+#romancemix ol {
+    display: inline-block;
+    margin: 10px;
+}
+
+#antess {
+    display: inline-block;
+}
+
+#comoantes ol{
+    display: inline-block;
+    margin: 10px;
+}
+
+#romancemix2 ol{
+    display: inline-block;
+}
+
+#mixtape2 {
+    display: inline-block;
+    margin: 10px;
+}
+
+#lloro ol{
+    display: inline-block;
+}
+
+#lloroo {
+    display: inline-block;
+    margin: 10px;
+}
+
+#tabss h2{
+    font-family:'poppinssemibold';
+    color: #31bce3;
+}
+
+#tabss ol,p{
+    font-family: 'poppinsregular';
+    color: #000000;
+    list-style: none;
+}
+
+
+
+iframe{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#comoantesalbum h2{
+    font-family: 'sg_noxvilleregular_demo';
+    color: #f8ea43;
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    font-size: 70px;
+    text-align: center;
+}
+
+#comoantesalbum p{
+    display: inline-block;
+    width:500px;
+    margin-left: 100px;
+    column-gap: 0px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+#redes li a{ 
+    display: inline-block;
+    background: url(../imagenes/sprite.png);
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+}
+
+#redes #instagram a{
+    background-position: 0px 0px;
+}
+
+#redes #twitter a{
+    background-position: -48px 0px;
+}
+
+#redes #youtube a{
+    background-position: -96px 0px;
+}
+
+@media screen and (max-width: 800px)
+{
+
+.principal {
+    width: 480px;
+    margin-left: auto;
+    border: none;}
+
+nav {
+    font-size: 25px;
+    margin: auto; 
+    width: 480px; 
+    text-align: center;
+    line-height: 1.5;
+}
+
+nav li {
+    padding: 10px;
+}
+    
+#copyright p{
+    font-size:9px;
+    width: 480px;
+    margin: auto;
+}
+    
+#tabss{
+    width: 481px;
+    margin: auto;
+}
+
+#tabss li{
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#comoantesalbum h2{
+    font-size: 50px;
+}
+
+#acordion{
+    width: 481px;
+    margin: auto;
+}
+
+#acordion p{
+    width: 300px;
+    margin: auto;
+}
+
+#comoantesalbum p{
+    font-size: 10px;
+    width: 350px;}
+
+iframe{margin: auto;
+    width: 350px;
+    height: 250px;}
+
+#comoantesalbum em{
+    font-size: 10px;
+}
+
+#comoantesalbum strong{
+    font-size: 10px;
+}
+
+#albumess{
+    width: 481px;
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 480px)
+{
+
+.principal{
+	width:300px;
+}
+
+nav {
+    font-size: 17px;
+    width: 300px;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav li {
+    padding: 5px;
+}
+
+h1{font-size: 35px;}
+
+#albumess{
+    width: 300px;
+}
+
+#tabss{
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+#comoantesalbum h2{
+    font-size: 25px;
+}
+
+
+#acordion{
+    width: 300px;
+}
+
+ #acordion p{
+    width: 250px;
+    margin: auto;
+}
+
+iframe{
+    margin: auto;
+    width: 250px;
+    height: 150px;
+}
+
+#copyright p{
+    width: 300px;
+    line-height: 1.5;
+    font-size: 7px;
+}
+
+}
